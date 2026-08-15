@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { SiteHeader } from "@/components/site-header"
 import { Hero } from "@/components/hero"
+import { BrandStory } from "@/components/brand-story"
 import { ProductShowcase } from "@/components/product-showcase"
 import { SiteFooter } from "@/components/site-footer"
 import { AdminPanel } from "@/components/admin/admin-panel"
@@ -16,6 +17,7 @@ export default function Page() {
     <main className="min-h-screen bg-background">
       <SiteHeader onLogin={() => setAdminOpen(true)} />
       <Hero />
+      <BrandStory />
       <ProductShowcase products={products} />
       <SiteFooter onAdmin={() => setAdminOpen(true)} />
       <AdminPanel

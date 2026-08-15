@@ -12,71 +12,61 @@ export const initialProducts: Product[] = [
   {
     id: "elan-plex",
     name: "Élan Plex",
-    tagline: "Bond Sealing & Perfecting System",
+    tagline: "Bond Protection System",
     description:
-      "A 2-step professional protocol that reconnects broken bonds and seals the cuticle for lasting strength and shine.",
-    detail: "Featuring Sceller Parfaire",
+      "A complete 2-step professional protocol that multiplies and seals bonds, protecting hair through chemical services for stronger, healthier-looking results.",
+    detail: "Sceller Treatment + Sceller Parfaire",
     image: "/products/elan-plex.png",
     steps: "2-Step Protocol",
-  },
-  {
-    id: "perpetue",
-    name: "Perpétue",
-    tagline: "Smoothness & Control",
-    description:
-      "Shampoo and masque enriched with Pro-Vitamin B5 to tame frizz, restore softness, and deliver enduring smoothness.",
-    detail: "With Pro-Vitamin B5",
-    image: "/products/perpetue.png",
-    steps: "Shampoo & Masque",
-  },
-  {
-    id: "origine",
-    name: "Origine",
-    tagline: "Preparation & Refinement System",
-    description:
-      "A refining shampoo that gently purifies and prepares the hair, creating the perfect canvas for advanced treatments.",
-    detail: "Refining Shampoo",
-    image: "/products/origine.png",
-    steps: "Shampoo",
-  },
-  {
-    id: "calme",
-    name: "Calme",
-    tagline: "Prep & Nourish System",
-    description:
-      "Shampoo and masque that calm, prepare, and deeply nourish stressed hair before and after professional services.",
-    detail: "Prep & Nourish",
-    image: "/products/calme.png",
-    steps: "Shampoo & Masque",
-  },
-  {
-    id: "le-fond",
-    name: "Le Fond",
-    tagline: "Deep Smoothening System",
-    description:
-      "An intensive treatment that penetrates deep into the fiber for a lasting, salon-perfect smooth finish.",
-    detail: "Intensive Treatment",
-    image: "/products/le-fond.png",
-    steps: "Treatment",
-  },
-  {
-    id: "la-buee",
-    name: "La Buée",
-    tagline: "Daily Nourishing Care",
-    description:
-      "Everyday shampoo and masque designed to maintain hydration, softness, and vitality between salon visits.",
-    detail: "Daily Care",
-    image: "/products/la-buee.png",
-    steps: "Shampoo & Masque",
   },
   {
     id: "pacifique",
     name: "Pacifique",
     tagline: "Cortex System — 3-Step Smoothing Protocol",
     description:
-      "A professional 3-step cortex treatment that restructures and smooths from within for transformative results.",
-    detail: "3-Step Protocol",
+      "A professional cortex-restructuring treatment powered by a plant protein complex of quinoa and rice that prepares, restructures, and seals the hair fibre.",
+    detail: "Cortex Restructuring Technology",
     image: "/products/pacifique.png",
-    steps: "Treatment",
+    steps: "3-Step Protocol",
+  },
+  {
+    id: "le-fond",
+    name: "Le Fond",
+    tagline: "Deep Smoothening System",
+    description:
+      "An intensive professional treatment with keratin and a multi-protein complex that transforms frizzy, unruly hair into a smoother, stronger finish with long-lasting control.",
+    detail: "Keratin + Multi-Protein Complex",
+    image: "/products/le-fond.png",
+    steps: "1000 ml",
+  },
+  {
+    id: "perpetue",
+    name: "Perpétue",
+    tagline: "Maintenance System",
+    description:
+      "Shampoo and masque developed to extend the life of smoothening services while maintaining softness, shine, and manageability between treatments.",
+    detail: "Pro-Vitamin B5 + Adaptive Protein Complex",
+    image: "/products/perpetue.png",
+    steps: "Shampoo & Masque",
+  },
+  {
+    id: "calme",
+    name: "Calme",
+    tagline: "Prep & Nourish System",
+    description:
+      "A professional cleansing and nourishing duo that removes impurities while maintaining hydration, leaving hair soft, smooth, and manageable.",
+    detail: "Oat Protein + Panthenol",
+    image: "/products/calme.png",
+    steps: "Shampoo & Masque",
+  },
+  {
+    id: "la-buee",
+    name: "La Buée",
+    tagline: "Daily Nourishing Care",
+    description:
+      "Gentle everyday shampoo and masque that cleanse without stripping moisture, maintaining softness and natural balance for professional and home use.",
+    detail: "Oat Protein + Betaine",
+    image: "/products/la-buee.png",
+    steps: "Shampoo & Masque",
   },
 ]

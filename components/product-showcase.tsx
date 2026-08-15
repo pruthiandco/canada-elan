@@ -1,19 +1,16 @@
 import type { Product } from "@/lib/products"
 
-function ProductCard({ product, index }: { product: Product; index: number }) {
+function ProductCard({ product }: { product: Product }) {
   return (
     <article className="group flex flex-col">
       <div className="relative aspect-4/5 overflow-hidden bg-muted">
         <img
           src={product.image || "/placeholder.svg"}
           alt={`${product.name} — ${product.tagline}`}
-          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+          className="h-full w-full object-contain p-6 transition-transform duration-700 ease-out group-hover:scale-105"
         />
         <span className="absolute left-4 top-4 rounded-sm bg-background/85 px-3 py-1.5 text-[0.65rem] font-medium tracking-[0.15em] text-primary uppercase backdrop-blur-sm">
           {product.steps}
-        </span>
-        <span className="absolute right-4 top-4 font-serif text-sm text-foreground/40">
-          {String(index + 1).padStart(2, "0")}
         </span>
       </div>
 
@@ -55,8 +52,8 @@ export function ProductShowcase({ products }: { products: Product[] }) {
         </div>
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-          {products.map((product, i) => (
-            <ProductCard key={product.id} product={product} index={i} />
+          {products.map((product) => (
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </div>

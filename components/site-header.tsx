@@ -4,8 +4,8 @@ import { useState, useEffect } from "react"
 import { Menu, X } from "lucide-react"
 
 const NAV = [
+  { label: "About", href: "#about" },
   { label: "Products", href: "#products" },
-  { label: "Systems", href: "#systems" },
   { label: "Contact", href: "#contact" },
 ]
 
