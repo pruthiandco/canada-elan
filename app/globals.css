@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-jost), system-ui, sans-serif;
+
+  --radius: 0.25rem;
+}
+
+:root {
+  /* Clean white salon canvas */
+  --background: #ffffff;
+  --foreground: #1c1517;
+  --card: #ffffff;
+  --card-foreground: #1c1517;
+
+  /* Deep burgundy from the logo */
+  --primary: #6b1522;
+  --primary-foreground: #fdf7f4;
+
+  /* Warm neutrals */
+  --muted: #f5f1ee;
+  --muted-foreground: #7d7377;
+
+  /* Champagne accent */
+  --accent: #b08d57;
+  --accent-foreground: #ffffff;
+
+  --border: #eae3df;
+  --input: #eae3df;
+  --ring: #6b1522;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
